@@ -1,3 +1,4 @@
+require 'logger'
 require 'sidekiq-superworker'
 require 'rspec/autorun'
 require 'support/superworkers'
