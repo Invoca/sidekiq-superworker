@@ -3,4 +3,4 @@
 
 require "appraisal/matrix"
 
-appraisal_matrix(activesupport: "6.1")
+appraisal_matrix(activesupport: "7.0")
