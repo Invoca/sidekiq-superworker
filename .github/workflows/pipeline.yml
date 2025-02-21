@@ -27,7 +27,7 @@ jobs:
           - gemfiles/activesupport_8_0.gemfile
         exclude:
           - ruby: "3.1"
-            gemfile: "./gemfiles/activesupport_8_0.gemfile"
+            gemfile: "gemfiles/activesupport_8_0.gemfile"
     env:
       BUNDLE_GEMFILE: ${{ matrix.gemfile }}
     steps:
